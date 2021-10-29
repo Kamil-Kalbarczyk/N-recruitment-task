@@ -133,4 +133,51 @@ body {
   text-decoration: none;
   color: #1A1A1A;
 }
+
+.searcher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 32px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 8px solid #00B289;
+  border-radius: 4px;
+  background: #FFFFFF;
+}
+
+.searcher input {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0 24px;
+  height: 64px;
+  font-size: 14px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #595959;
+  border: none;
+  background-color: transparent;
+}
+
+.searcher input:focus {
+  outline: none;
+}
+
+.searcher button {
+  margin-right: 12px;
+  height: 40px;
+  width: 124.25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00B289;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
