@@ -105,3 +105,29 @@ body {
         }
     }
 }
+
+.mid-bar {
+    width: 100%;
+    height: 1px;
+    background-color: #F5F5F5;
+}
+
+.main-nav {
+
+    ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 70px;
+        height: 88px;
+
+        li {
+            a {
+                font-family: 'Roboto', sans-serif;
+                font-size: 18px;
+                text-decoration: none;
+                color: #1A1A1A;
+            }
+        }
+    }
+}
