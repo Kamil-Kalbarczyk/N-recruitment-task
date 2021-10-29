@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  position: relative;
+}
+
+.mobile-menu-button {
+  display: none;
+}
+
+.main-header-wrapper,
+.top-nav-wrapper {
+  padding: 0 2%;
+}
+
+.top-bar {
+  background-color: #00B289;
+  height: 7.68px;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.top-nav,
+.main-nav,
+.searcher {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+.top-nav {
+  margin: 31.32px auto 67.16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.top-nav .top-nav__left-panel ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.top-nav .top-nav__left-panel ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-nav .top-nav__left-panel ul li a {
+  display: block;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+  color: #595959;
+}
+
+.top-nav .top-nav__left-panel ul li .top-nav__left-panel__logo {
+  display: block;
+  height: 92.16px;
+}
+
+.top-nav .top-nav__left-panel ul li:first-child {
+  margin-right: 48px;
+}
+
+.top-nav .top-nav__left-panel ul li:nth-child(2) {
+  margin-right: 20px;
+}
+
+.top-nav .top-nav__left-panel ul li:nth-child(3) {
+  margin-right: 17px;
+}
+
+.top-nav .top-nav__right-panel ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.top-nav .top-nav__right-panel ul li a {
+  display: block;
+  color: #22354C;
+  text-decoration: none;
+}
+
+.top-nav .top-nav__right-panel ul li:first-child {
+  margin-right: 44px;
+}
+
+.top-nav .top-nav__right-panel ul li:nth-child(2) {
+  margin-right: 40px;
+}
+/*# sourceMappingURL=style.css.map */
