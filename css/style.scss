@@ -86,10 +86,12 @@ body {
         ul {
             display: flex;
             list-style: none;
+            align-items: center;
 
             li {
                 a {
-                    display: block;
+                    display: flex;
+                    align-items: center;
                     color: #22354C;
                     text-decoration: none;
                 }
